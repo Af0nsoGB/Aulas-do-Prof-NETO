@@ -1,0 +1,15 @@
+#Saldo, Saque, Deposito, Limite
+Saldo= float(input('Digite o Saldo da Conta: '))
+Deposito= float(input('Digite o Valor a ser Depositado: '))
+Saque= float(input('Digite o Valor do Saque: '))
+
+Limite= (Saldo+Deposito-Saque)
+
+print('Seu limite é: ', Limite)]
+
+'''Exemplo de Digitação:
+Digite o Saldo da Conta: 50
+Digite o Valor a ser Depositado: 0
+Digite o Valor do Saque: 20
+Seu limite é:  30.0
+'''
